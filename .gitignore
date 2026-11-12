@@ -1,0 +1,37 @@
+# Personal — never commit
+fable-usage.jsonl
+*-usage.jsonl
+*.log
+*.local.*
+.env
+secrets/
+backups/
+state/
+logs/
+b12-snapshot/
+lighthouse-reports/
+
+# Android build
+kiosk-app/.tools/
+kiosk-app/.gradle/
+kiosk-app/build/
+kiosk-app/app/build/
+kiosk-app/local.properties
+kiosk-app/gradle/wrapper/gradle-wrapper.jar
+kiosk-app/gradlew
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Editor & OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Temp
+/tmp/
+*.tmp
+*.bak
